@@ -972,5 +972,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     libaudioparsers \
     android.hardware.drm@1.4-service.widevine.xml \
+    android.hardware.biometrics.fingerprint@2.1-service.xml \
     vendor.qti.gnss@4.0-service.xml
 
