@@ -17,6 +17,8 @@
  */
 
 soong_namespace {
+	imports: [
+	],
 }
 
 cc_prebuilt_library_shared {
@@ -233,9 +235,9 @@ android_app_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.drm@1.4-service.widevine.xml",
+	name: "android.hardware.drm-service.widevine.xml",
 	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.drm@1.4-service.widevine.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.widevine.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
